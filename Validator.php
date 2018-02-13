@@ -400,7 +400,7 @@ Validator::addMethod('equalTo', function(ValidatorContext $context, $value, $par
     if ($parts !== null) {
         $name = $parts['name'];
         $model = $context->getValidator()->getModel();
-        $valid = $value === isset($model[$name]) ? $model[$name] : null;
+        $valid = $value === $model[$name] ? $model[$name] : null;
     }
     return $valid;
 });
