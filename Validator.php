@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Cdmckay\Pajama;
+namespace taskaijo\Pajama;
 
-use Cdmckay\Pajama\ValidatorContext;
+use taskaijo\Pajama\ValidatorContext;
 
 /**
  * A class for validating array models, typically the <code>$_POST</code> or <code>$_GET</code> superglobals.
