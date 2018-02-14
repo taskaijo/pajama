@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Cdmckay\Pajama;
+namespace taskaijo\Pajama;
 
-use Cdmckay\Pajama\Validator;
+use taskaijo\Pajama\Validator;
 
 /**
  * Provided to each validation method to provide useful methods and validation context information.
